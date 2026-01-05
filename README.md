@@ -10,16 +10,16 @@ A comprehensive, containerized solution for **Log Management** and **System Moni
 ## 🚀 Architecture
 This repository is organized into two main subsystems:
 
-1.  **Logging Stack (ELK + Fluent Bit):**
-    * **Elasticsearch:** Distributed search and analytics engine
-    * **Logstash:** Server-side data processing pipeline
-    * **Kibana:** Data visualization dashboard for Elasticsearch
-    * **Fluent Bit:** Lightweight log processor and forwarder
+1.  Logging Stack (ELK + Fluent Bit):
+    * Elasticsearch: Distributed search and analytics engine
+    * Logstash: Server-side data processing pipeline
+    * Kibana: Data visualization dashboard for Elasticsearch
+    * Fluent Bit: Lightweight log processor and forwarder
 
-2.  **Monitoring Stack (Prometheus + Grafana):**
-    * **Prometheus:** Systems monitoring and alerting toolkit
-    * **Grafana:** Analytics and interactive visualization web application
-    * **Node Exporter:** Hardware and OS metrics exporter (configured in Prometheus targets)
+2.  Monitoring Stack (Prometheus + Grafana):
+    * Prometheus: Systems monitoring and alerting toolkit
+    * Grafana: Analytics and interactive visualization web application
+    * Node Exporter: Hardware and OS metrics exporter (configured in Prometheus targets)
 
 ## 📂 Project Structure
 ```text
